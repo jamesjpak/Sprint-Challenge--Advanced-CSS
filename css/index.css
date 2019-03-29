@@ -1,18 +1,18 @@
+@mobile  ( max-width: 500px );
 .btn-1 {
   display: block;
   cursor: pointer;
   height: 45px;
   font-size: 20px;
-  border: 1px #3b3a3a;
+  border: 1px #22283A;
   border-radius: 10px;
   width: 100px;
-  background-color: #3b3a3a;
+  background-color: #22283A;
   color: white;
 }
 .btn-1:hover {
-  background-color: white;
-  color: #3b3a3a;
-  border: 1px #3b3a3a;
+  background-color: lightblue;
+  color: #22283A;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
