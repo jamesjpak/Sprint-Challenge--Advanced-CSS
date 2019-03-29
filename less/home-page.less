@@ -25,8 +25,7 @@
  
 
   .space-images {
-    display: flex;
-    flex-direction: row;
+    .standard();
     flex-wrap: wrap;
     width: 100%;
 
@@ -41,14 +40,12 @@
         display: block;
         justify-content: center;
       }
-    }
 
-    .erasepic {
-      @media @phone {
+      .erasepic {
         display: none;
       }
     }
-    
+
   }
 
   .visit-planets {

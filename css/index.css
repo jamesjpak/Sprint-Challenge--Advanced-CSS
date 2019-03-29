@@ -1,3 +1,7 @@
+.standard {
+  display: flex;
+  flex-direction: row;
+}
 .btn-1 {
   display: block;
   cursor: pointer;
@@ -183,7 +187,7 @@ p {
   margin: 0 auto;
 }
 .nav-container {
-  background: #e9e7e7;
+  background: #F6F6F6;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -205,7 +209,7 @@ nav {
 nav a {
   padding: 12px;
   text-decoration: none;
-  color: #4e4a4a;
+  color: #5E6164;
 }
 footer {
   color: #22283B;
@@ -250,10 +254,8 @@ footer {
     justify-content: center;
   }
 }
-@media ( max-width: 500px ) {
-  .home .space-images .erasepic {
-    display: none;
-  }
+.home .space-images img .erasepic {
+  display: none;
 }
 .home .visit-planets {
   padding: 15px;
