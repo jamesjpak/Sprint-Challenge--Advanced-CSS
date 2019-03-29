@@ -30,26 +30,34 @@
     width: 100%;
 
     img {
+
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+    }
 
+    .blast {
       @media @phone {
-        width: 100%;
-        display: block;
-        justify-content: center;
-
-        .erasepic {
-          display: none;
-        }
-      }
-
-      
+        width: 90%;
+        margin: 20px 5%;
       }
     }
 
+    .sky, .launch {
+      @media @phone {
+        display: none;
+      }
+    }
+    
   }
+
+  .erasepic {
+    @media @phone {
+        display: none;
+    }
+  }
+
 
   .visit-planets {
     padding: 15px;
