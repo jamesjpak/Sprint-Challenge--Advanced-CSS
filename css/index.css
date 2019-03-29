@@ -1,4 +1,4 @@
-.standard {
+.standard-flex {
   display: flex;
   flex-direction: row;
 }
@@ -254,8 +254,10 @@ footer {
     justify-content: center;
   }
 }
-.home .space-images img .erasepic {
-  display: none;
+@media ( max-width: 500px ) {
+  .home .space-images img .erasepic {
+    display: none;
+  }
 }
 .home .visit-planets {
   padding: 15px;
