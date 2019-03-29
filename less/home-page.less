@@ -26,6 +26,7 @@
 
   .space-images {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 
@@ -34,12 +35,15 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      @media @phone {
+        width: 100%;
+        display: block;
+        justify-content: center;
+      }
     }
 
-    @media @phone {
-      display: block;
-    }
-
+    
     .erasepic {
       @media @phone {
         display: none;
@@ -66,6 +70,11 @@
     display: flex;
     justify-content: center;
 
+    @media @phone {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
   
     .walk-text {
       width: 50%;
@@ -78,10 +87,6 @@
         margin-bottom: 26px;
       }
 
-      @media @phone {
-        display: flex;
-        flex-direction: column;
-      }
 
     }
 
