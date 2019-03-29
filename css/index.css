@@ -174,8 +174,9 @@ nav {
   font-size: 15px;
 }
 nav a {
-  padding: 10px;
+  padding: 12px;
   text-decoration: none;
+  color: #4e4a4a;
 }
 footer {
   color: #22283B;
@@ -192,6 +193,9 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+.home .intro img {
+  border-radius: 10px;
 }
 .home .space-images {
   display: flex;
