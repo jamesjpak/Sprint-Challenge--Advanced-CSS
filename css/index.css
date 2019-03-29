@@ -235,6 +235,16 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
+@media ( max-width: 500px ) {
+  .home .space-images {
+    display: block;
+  }
+}
+@media ( max-width: 500px ) {
+  .home .space-images .erasepic {
+    display: none;
+  }
+}
 .home .visit-planets {
   padding: 15px;
 }
