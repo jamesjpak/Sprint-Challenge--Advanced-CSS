@@ -3,15 +3,16 @@
   cursor: pointer;
   height: 45px;
   font-size: 20px;
-  border: 1px darkgrey;
+  border: 1px #3b3a3a;
   border-radius: 10px;
   width: 100px;
-  background-color: darkgrey;
+  background-color: #3b3a3a;
   color: white;
 }
 .btn-1:hover {
   background-color: white;
-  color: darkgrey;
+  color: #3b3a3a;
+  border: 1px #3b3a3a;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
