@@ -16,8 +16,13 @@
     color: @fontColor;
 
     &:hover {
-        background-color: lightblue;
+        background-color: @fontColor;
         color: @bgcolor;
+    }
+
+    @media @phone {
+        width: 400px;
+        align-items: center;
     }
 }
 
