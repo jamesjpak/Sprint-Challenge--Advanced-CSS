@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Fully responsive websites adjusts to the size of the browser at any point in contrast to adaptive websites which adjusts size at specific breakpoints.  Furthermore, in adaptive websites, widths are hard coded at media queries.  This can be observed when an adaptive website adjusts at a breakpoint as it has a sudden shift in layout versus a responsive website transition which is constantly fluid.  
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first is the methodology of designing the parameters of the page to be viewed on a mobile screen first. Then, one works on adjusting and styling the page to be viewed on a larger screen.  Desktop first is the more traditional process of designing the parameters of the page to a desktop computer screen first, and then writing additional code to adjust the layout for mobile devices.  Mobile first engineering uses min-width mentality while desktop first uses max-width.  	
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Font-size: 62.5% in the html tag sets the ratio of 1 rem unit to 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+I would describe preprocessing as an additional method of editing and organizing lines of code.  Furthermore, it converts lines of data from other programs such as less into CSS files.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is parametric mixins as they will save a lot of time in future assignments.  The concept that gives me the most trouble is nesting, as I struggled a bit with organizing my lines of code.  However, I realize the usefulness and importance to organization with nesting.   
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

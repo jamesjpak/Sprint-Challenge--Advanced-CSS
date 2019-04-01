@@ -1,1 +1,42 @@
 // Mixins Here
+.standard-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+// ask Lenna what's missing
+.fixed-nav {
+    position: sticky;
+    top: 0;
+    background-color: @wild-sand;
+}
+
+
+.btn-1 {
+    .custom-btn();
+}
+
+.custom-btn(@width: 100px, @bgcolor: @ebony-clay, @fontColor: white) {
+    display: block;
+    cursor: pointer;
+    height: 45px;
+    font-size: 20px;
+    border: 1px @ebony-clay;
+    border-radius: 10px;
+    width: @width;
+    background-color: @bgcolor;
+    color: @fontColor;
+
+    &:hover {
+        background-color: @fontColor;
+        color: @bgcolor;
+    }
+
+    @media @phone {
+        width: 100%;
+        height: 70px;
+        align-items: center;
+    }
+}
+
+
